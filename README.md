@@ -7,7 +7,7 @@ It’s a fully functional typing test that runs entirely in your terminal - same
 No account. No telemetry. No JS. No TS. No BS. Just `curses` and a word list.
 
 ### Why it feels right
-Most terminal typing tests either regenerate a whole new screen per test which is annoying, don’t show you a real prompt to type against which feels like a guessing game, or make you dig through a settings meny every single run (annoying again.) Glyph fixes all three.
+Most terminal typing tests either regenerate a whole new screen per test which is annoying, don’t show you a real prompt to type against which feels like a guessing game, or make you dig through a settings menu every single run (annoying again.) Glyph fixes all three.
 
 ### Features
 <table>
