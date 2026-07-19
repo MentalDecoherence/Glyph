@@ -48,7 +48,7 @@ Most terminal typing tests either regenerate a whole new screen per test which i
 ### Install & Run
 Glyph is a single file. No virtualenv required.
 
-    git clone https://github.com/mentaldecoherence/glyph.git
+    git clone https://github.com/MentalDecoherence/glyph.git
     cd glyph
     python3 glyph.py
 
