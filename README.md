@@ -17,11 +17,11 @@ Most terminal typing tests either regenerate a whole new screen per test which i
 </colgroup>
 <tr>
 <td>True overlay text</td>
-<td>Type directly on the prompt  - correct chars turn theme-green, mistakes turn red and underline, missed spaces show as `_`</td>
+<td>Type directly on the prompt  - correct chars turn theme-green, mistakes turn red and underline, missed spaces show as _</td>
 </tr>
 <tr>
 <td>Words or time</td>
-<td>`--words 50` or `--time 30`, switch live with `F3`</td>
+<td>--words 50 or --time 30, switch live with F3</td>
 </tr>
 <tr>
 <td>Live stats</td>
@@ -29,19 +29,19 @@ Most terminal typing tests either regenerate a whole new screen per test which i
 </tr>
 <tr>
 <td>Color palettes</td>
-<td>Cycle color themes with `F2` , no restart needed</td>
+<td>Cycle color themes with F2, no restart needed</td>
 </tr>
 <tr>
 <td>Instant restart</td>
-<td>`Tab` generates a fresh passage with your current settings, no menus</td>
+<td>Tab generates a fresh passage with your current settings, no menus</td>
 </tr>
 <tr>
 <td>Real editing</td>
-<td>Backspace fixes a char, `Ctrl+W` deletes a whole word</td>
+<td>Backspace fixes a char, Ctrl+W deletes a whole word</td>
 </tr>
 <tr>
 <td>Zero dependencies</td>
-<td>Pure Python standard library (`curses`). If you’re on Windows, download the package using `pip install windows-curses`</td>
+<td>Pure Python standard library (`curses`). If you’re on Windows, download the package using pip install windows-curses</td>
 </tr>
 </table>
 
@@ -55,7 +55,7 @@ Glyph is a single file. No virtualenv required.
 That’s it. python3 glyph.py and you’re typing.
 
 <callout icon="i">
-	**Windows users note**: `curses` isn’t included in the standard Windows Python install.
+	**Windows users note**: curses isn’t included in the standard Windows Python install.
 	**One-time setup**
 
 	    pip install windows-curses
@@ -82,31 +82,31 @@ That’s it. python3 glyph.py and you’re typing.
 <td>type it</td>
 </tr>
 <tr>
-<td>`Backspace`</td>
+<td>Backspace</td>
 <td>delete last character</td>
 </tr>
 <tr>
-<td>`Ctrl` + `W`</td>
+<td>Ctrl + W</td>
 <td>delete last word</td>
 </tr>
 <tr>
-<td>`Tab`</td>
+<td>Tab</td>
 <td>new test, same settings</td>
 </tr>
 <tr>
-<td>`F2`</td>
+<td>F2</td>
 <td>cycle color theme</td>
 </tr>
 <tr>
-<td>`F3`</td>
+<td>F3</td>
 <td>switch words ↔ time mode</td>
 </tr>
 <tr>
-<td>`F4`</td>
+<td>F4</td>
 <td>cycle length</td>
 </tr>
 <tr>
-<td>`Esc`</td>
+<td>Esc</td>
 <td>quit</td>
 </tr>
 </table>
