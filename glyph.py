@@ -1,28 +1,3 @@
-#!/usr/bin/env python3
-"""
-glyph.py.py - a monkeytype-style typing speed test, in your terminal.
-
-Features:
-  - Real ghost text: the prompt is always visible (dimmed), and you type
-    directly on top of it. Correct chars light up, mistakes turn red.
-  - Word-count or time-based tests.
-  - Live WPM + accuracy while you type.
-  - Multiple color palettes (F2 to cycle).
-  - Tab to instantly restart with a fresh prompt and the same settings
-    (no re-picking options every run).
-  - Backspace to fix mistakes, Ctrl+W / Ctrl+Backspace to delete a whole word.
-
-Usage:
-  python3 glyph.py                 # 25 words, classic theme
-  python3 glyph.py --words 50
-  python3 glyph.py --time 30
-  python3 glyph.py --theme dracula
-  python3 glyph.py --list-themes
-
-Requires only the Python standard library. On Windows, install the
-`windows-curses` package first: pip install windows-curses
-"""
-
 import argparse
 import curses
 import random
